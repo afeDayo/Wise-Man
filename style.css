@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+.adv,
+.quo {
+  font-family: "Manrope", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Light-Cyan: hsl(193, 38%, 86%);
+  --Neon-Green: hsl(150, 100%, 66%);
+  --Grayish-Blue: hsl(217, 19%, 38%);
+  --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+  --Dark-Blue: hsl(218, 23%, 16%);
+}
+
+html,
+.backbg {
+  background-color: var(--Dark-Blue);
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.backbg .card {
+  background-color: var(--Dark-Grayish-Blue);
+  width: 400px;
+  max-width: 92%;
+  margin: 150px auto;
+  position: relative;
+}
+
+.card .adv {
+  letter-spacing: 3px;
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--Neon-Green);
+  margin-bottom: 20px;
+}
+
+.card .quo {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--Light-Cyan);
+}
+
+.card .pause {
+  margin-bottom: 68px;
+}
+
+.dice {
+  position: absolute;
+  right: 124px;
+  bottom: -11px;
+}
+
+.circle {
+  background-color: var(--Neon-Green);
+  padding: 32px 32px;
+  position: absolute;
+  right: 104px;
+  bottom: -30px;
+  border-radius: 50%;
+  animation: glowAnimation 1s ease-in-out infinite;
+}
+
+.glow .circle:hover {
+  box-shadow: 0 0 10px var(--Neon-Green), 0 0 20px var(--Neon-Green),
+    0 0 30px var(--Neon-Green);
+}
+
+@media (width > 320px) {
+  .dice {
+    right: 133px;
+  }
+  .circle {
+    right: 113px;
+  }
+}
+
+@media (width > 340px) {
+  .dice {
+    right: 142px;
+  }
+  .circle {
+    right: 122px;
+  }
+}
+
+@media (width > 360px) {
+  .dice {
+    right: 151px;
+  }
+  .circle {
+    right: 131px;
+  }
+}
+
+@media (width > 374px) {
+  .dice {
+    right: 158px;
+  }
+  .circle {
+    right: 138px;
+  }
+}
+
+@media (width > 389px) {
+  .dice {
+    right: 164px;
+  }
+  .circle {
+    right: 144px;
+  }
+}
+
+@media (width > 400px) {
+  .dice {
+    right: 170px;
+  }
+  .circle {
+    right: 150px;
+  }
+}
+
+@media (width > 413px) {
+  .dice {
+    right: 176px;
+  }
+  .circle {
+    right: 156px;
+  }
+}
+
+@media (width > 420px) {
+  .dice {
+    right: 178px;
+  }
+  .circle {
+    right: 158px;
+  }
+}
+
+@media (width > 439px) {
+  .dice {
+    right: 184px;
+  }
+  .circle {
+    right: 164px;
+  }
+}
+
+@media (width > 500px) {
+  .dice {
+    right: 186px;
+  }
+  .circle {
+    right: 167px;
+  }
+}
