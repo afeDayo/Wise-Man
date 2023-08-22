@@ -9,7 +9,7 @@ async function getData() {
   const data = await response.json();
   console.log(data.slip);
   loading.classList.add("d-none");
-  adviceContent.textContent = data.slip.advice;
+  adviceContent.textContent = `"${data.slip.advice}"`;
   adviceID.textContent = `ADVICE #${data.slip.id}`;
 }
 
